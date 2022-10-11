@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <!--Configuraciones de la página-->
+    <head>
+        <title>Boceto</title>
+        <script src="xd.css"></script>
+        <link rel="stylesheet" href="xd.css">
+    </head>
+    <!--Estructura de la página-->
+    <body>
+    <!--Título y subtítulo-->
+    <h1>Pandora</h1>
+    <h2>La p&aacute;gina web oficial de Pandora</h2>
+    <br>
+    <!--Barra de navegación-->
+    <ul>
+        <!--Diseño de la barra con CSS-->
+		<a href="index.html"><li style="float:left"><img src="img/icobrr.png" width="42%" height="28%"></li></a>
+        <li><a href="subpaginas/contacto.html">Contacto</a></li>
+        <li><a href="subpaginas/faq.html">FAQ</a></li>
+        <li><a href="subpaginas/politicas.html">Pol&iacute;ticas</a></li>
+        <li><a href="subpaginas/sobre.html">Sobre nosotros</a></li>
+        <pl><a class="active" href="https://creativecommons.org/licenses/by/4.0/">!!!</a></pl>
+    </ul>
+    <iframe width="800" height="568" src="https://youtu.be/Yh1ZDa-rinM"> 
+    </iframe>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--Formulario-->
+    <form action="datos.php" method="POST" autocomplete="on">
+		<!--Texto corto-->
+		<ho for="text">Nombre:</ho><br>
+		<input type="text" id="text" name="text" placeholder="Introduce Texto" maxlength="30"><br><br>
+		<!--Texto largo-->
+        <ho>Explica porqué quieres registrarte: (opcional)</ho><br>
+		<textarea name="motivo" rows="10" cols="30">(Explica aquí el motivo)</textarea><br><br>
+		<!--Email-->
+		<ho for="email">Email:</ho><br>
+		<input type="email" id="email" name="email"><br><br>
+		<!--Contraseña/Texto oculto-->
+		<ho for="password">Contraseña:</ho><br>
+		<input type="password" id="password" name="password"><br><br>
+		<!--Opciones-->
+		<ho for="checkbox1">Quiero recibir noticias de Pandora</ho>
+		<input type="checkbox" id="checkbox1" name="noticias" value="noticias"><br>
+		<ho for="checkbox2">Quiero recibir anuncios relacionados con Pandora</ho>
+		<input type="checkbox" id="checkbox2" name="anuncios" value="anuncios"><br>
+		<ho for="checkbox3">Acepto los t&eacute;rminos y condiciones</ho>
+		<input type="checkbox" id="checkbox3" name="terminos" value="terminos"><br><br>
+		<!--Eleccion desplegable-->
+		<ho for="elc">Elige tu Pa&iacute;s:</ho>
+		<select id="elc" name="elc">
+			<option value="defaul" selected>Elige una opción:</option> 
+			<option value="volvo">España</option>
+			<option value="saab">Alemania</option>
+			<option value="fiat">Italia</option>
+			<option value="audi">Polonia</option>
+		</select><br><br>
+		<!--Eleccion fija-->
+		<input type="radio" id="correp" name="fav_language" value="correo" checked>
+		<ho for="correo">Recibir correos diariamente</label><br>
+		<input type="radio" id="css" name="fav_language" value="css">
+		<ho for="css">Recibir correos semanalmente</label><br>
+		<input type="radio" id="javascript" name="fav_language" value="javascript">
+		<ho for="javascript">Recibir correos mensualmente</label><br><br>
+		<!--Eleccion de color-->
+		<label for="color">Color favorito (con fines de estudio):</label><br>
+		<input type="color" id="color" name="color"><br><br>
+		<!--Fecha-->
+		<label for="date">Fecha de nacimiento:</label><br>
+		<input type="date" id="date" min="1950-12-31" max="2000-01-02" name="date"><br><br>
+        <!--Boton-->
+		<input type="reset" id="reset" value="Enviar"><br>
+	</form>
+</html>
