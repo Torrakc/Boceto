@@ -22,32 +22,41 @@
         <li><a href="subpaginas/sobre.html">Sobre nosotros</a></li>
         <pl><a class="active" href="https://creativecommons.org/licenses/by/4.0/">!!!</a></pl>
     </ul>
-    <iframe width="800" height="568" src="https://youtu.be/Yh1ZDa-rinM"> 
-    </iframe>
-    <h style="margin:50%;"></h>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/q8hW7KCX4Vg" title="TOP 10 EL HUMANO ES RETRASADO Y NO TIENE CURA - 8cho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <p style="line-height:1700%; border-style:none;">&nbsp;</p>
+    <br>
     <!--Formulario-->
     <form action="datos.php" method="POST" autocomplete="on">
 		<!--Texto corto-->
 		<ho for="text">Nombre:</ho><br>
+
 		<input type="text" id="text" name="text" placeholder="Introduce Texto" maxlength="30"><br><br>
 		<!--Texto largo-->
         <ho>Explica porqué quieres registrarte: (opcional)</ho><br>
+
 		<textarea name="motivo" rows="10" cols="30">(Explica aquí el motivo)</textarea><br><br>
 		<!--Email-->
 		<ho for="email">Email:</ho><br>
+
 		<input type="email" id="email" name="email"><br><br>
 		<!--Contraseña/Texto oculto-->
 		<ho for="password">Contraseña:</ho><br>
+
 		<input type="password" id="password" name="password"><br><br>
 		<!--Opciones-->
 		<ho for="checkbox1">Quiero recibir noticias de Pandora</ho>
+
 		<input type="checkbox" id="checkbox1" name="noticias" value="noticias"><br>
 		<ho for="checkbox2">Quiero recibir anuncios relacionados con Pandora</ho>
+
 		<input type="checkbox" id="checkbox2" name="anuncios" value="anuncios"><br>
 		<ho for="checkbox3">Acepto los t&eacute;rminos y condiciones</ho>
+
 		<input type="checkbox" id="checkbox3" name="terminos" value="terminos"><br><br>
 		<!--Eleccion desplegable-->
 		<ho for="elc">Elige tu Pa&iacute;s:</ho>
+
 		<select id="elc" name="elc">
 			<option value="defaul" selected>Elige una opción:</option> 
 			<option value="España">España</option>
@@ -56,17 +65,22 @@
 			<option value="Polonia">Polonia</option>
 		</select><br><br>
 		<!--Eleccion fija-->
+
 		<input type="radio" id="correp" name="fav_language" value="correo" checked>
 		<ho for="diario">Recibir correos diariamente</label><br>
+
 		<input type="radio" id="semano" name="fav_language" value="semano">
 		<ho for="semano">Recibir correos semanalmente</label><br>
+
 		<input type="radio" id="menso" name="fav_language" value="menso">
 		<ho for="menso">Recibir correos mensualmente</label><br><br>
-		<!--Eleccion de color-->
+        <!--Eleccion de color-->
 		<label for="color">Color favorito (con fines de estudio):</label><br>
+
 		<input type="color" id="color" name="color"><br><br>
 		<!--Fecha-->
 		<label for="date">Fecha de nacimiento:</label><br>
+
 		<input type="date" id="date" min="1950-12-31" max="2020-01-02" name="date"><br><br>
         <!--Boton-->
 		<input type="reset" id="reset" value="Enviar"><br>
