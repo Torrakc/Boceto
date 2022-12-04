@@ -6,8 +6,17 @@ p{
     margin-bottom: 0%;
     margin-top: 10px;
 }
-s {border-style: ridge;}
-
+p.something {  
+  border-style: ridge;
+}
+p:hover {
+  background-color: crimson;
+  color:white;
+}
+a:hover {
+  background-color:indigo;
+  color:greenyellow;
+}
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:80px;
@@ -16,20 +25,6 @@ h1{
     text-align:center;
     margin-top: 0%;
     margin-bottom: 0%;
-}
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-s:hover {
-  background-color: crimson;
-  color:white;
-
-}
-a:hover {
-  background-color:indigo;
-  color:greenyellow;
 }
 h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -46,6 +41,9 @@ body{
 }
 
 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
     list-style-type: none;
     padding:0;
     margin: 0;
@@ -77,6 +75,33 @@ ul {
   }
 .op{
   background-image: url("unknown.gif");
+}
+#XD {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  background-color: darkred;
+  position: -webkit-sticky;
+  position:sticky;
+  top:0;
+  padding-left:10%;
+  padding-right:10%;
+}
+#XDD {
+  float:left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#XDD p{
+  display:block;
+  color: #93CAED;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: dotted;
+}
+#XDD p:hover{
+  background-color: blueviolet;
+  color:white;
 }
 pl a {
   display: block;
