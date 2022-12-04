@@ -6,7 +6,7 @@ p{
     margin-bottom: 0%;
     margin-top: 10px;
 }
-p {border-style: ridge;}
+s {border-style: ridge;}
 
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,7 +22,7 @@ h1{
   justify-content: space-between;
   align-items: center;
 }
-p:hover {
+s:hover {
   background-color: crimson;
   color:white;
 
