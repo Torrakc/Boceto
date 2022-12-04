@@ -7,15 +7,7 @@ p{
     margin-top: 10px;
 }
 p {border-style: ridge;}
-p:hover {
-  background-color: crimson;
-  color:white;
 
-}
-a:hover {
-  background-color:indigo;
-  color:greenyellow;
-}
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:80px;
@@ -24,6 +16,20 @@ h1{
     text-align:center;
     margin-top: 0%;
     margin-bottom: 0%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p:hover {
+  background-color: crimson;
+  color:white;
+
+}
+a:hover {
+  background-color:indigo;
+  color:greenyellow;
 }
 h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
